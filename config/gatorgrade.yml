@@ -1,6 +1,6 @@
 # --> check the Python program
-- threexplusone/threexplusone/main.py:
-  - description: Ensure that the main.py file exists in the threexplusone/threexplusone/ directory
+- threeXPlusOne/threexplusone/main.py:
+  - description: Ensure that the main.py file exists in the threeXPlusOne/threexplusone/ directory
     check: ConfirmFileExists
   - description: Complete all TODOs, remove the TODO markers in the main.py
     check: MatchFileFragment
