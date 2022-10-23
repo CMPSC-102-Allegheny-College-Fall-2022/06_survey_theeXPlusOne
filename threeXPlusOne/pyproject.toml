@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "threexplusone"
+version = "0.1.0"
+description = ""
+authors = ["Oliver Bonham-Carter <obonhamcarter@allegheny.edu>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+threexplusone = "threexplusone.main:cli"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+rich = "^12.6.0"
+typer = "^0.6.1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.10.0"
+mypy = "^0.982"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
