@@ -11,11 +11,12 @@ Build a sequence as described by the Collatz Conjecture.
 ## Rules
 
 ```
-	 If f(x) is odd,
-       f(f(x)) = 3(f(x)) + 1,
-	 else f(x) = f(x) /2
+If f(x) is odd,
+    f(f(x)) = 3(f(x)) + 1,
+else
+    f(x) = f(x) /2
 
-	 Repeat until f(x) = 4, then f(x) = 2 then f(x) = 1 (stop!)
+Repeat until f(x) = 1 (stop!)
 ```
 
 
